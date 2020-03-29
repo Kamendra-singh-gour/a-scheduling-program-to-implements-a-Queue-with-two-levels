@@ -23,6 +23,5 @@ If one process e.g. P1 is scheduled and running, now another process with higher
 Suppose Queue 1 is empty and currently process from Queue 2 is being executed. Now, If at this time a new process arrives then new process will be part of Queue 1. So, new
 process should be scheduled as Queue 1 has higher priority than Queue 2. Again after Queue 1 becomes empty Queue 2 will resume execution.
 
-
- INPUT FORMAT:<Pid, Arrival_time, Burst_time,Priority>
+INPUT FORMAT:<Pid, Arrival_time, Burst_time,Priority>
 OUTPUT FORMAT:<Pid Response_Time Finish_Time Waiting_Time >
